@@ -1,0 +1,23 @@
+{
+  "name": "s10-s11-oquiz-enzoclock",
+  "version": "1.0.0",
+  "description": "Oquiz - La plateforme de quiz",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "pavlova@oclock.io",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.4.0",
+    "nodemon": "^3.1.3"
+  }
+}
