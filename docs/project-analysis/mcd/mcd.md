@@ -10,7 +10,7 @@ MCD, MLD, MPD s'inscrivent dans une méthodologie de modélisation qu'on appelle
 - `MCD` : 
   - objectif : **qu'est-ce qu'on veut stocker**
   - pour qui : pour mamie, pour les investisseurs...
-  - très académique, très structuré, avec vocabulaire, généralement en français
+  - très **académique**, très structuré, avec vocabulaire, généralement en français
 - `MLD` :
   - objectif : **comment on va le stocker**
   - pour qui : technique, pour les devs
@@ -22,7 +22,7 @@ MCD, MLD, MPD s'inscrivent dans une méthodologie de modélisation qu'on appelle
 
 On parle :
 - d'**entité** (et non pas de table)
-- d'**attributs** (et non pas de colonne)
+- d'**attributs** (et non pas de colonne/champs)
 - d'**associations** et de **cardinalités** (et non pas de clés étrangères ni de "relations" === "table" en anglais)
 - de **discriminant** / **déterminant** (voire de "`code entité`") (et non pas d'ID ni de clé primaire)
 
@@ -117,4 +117,9 @@ Un quiz a entre 1 et N thèmes ==> l'admin qui créé le quiz sera forcé à cho
 Il est possible de générer des MCD schématisé à partir de code source via des outils tel que : https://mocodo.net/
 
 Mon conseil : commencez avec un `papier + crayon` puis `Draw.io`.
+
+
+## Résultat
+
+![](./mcd.svg)
 
